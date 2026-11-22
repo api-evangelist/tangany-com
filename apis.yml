@@ -1,0 +1,27 @@
+aid: tangany-com
+name: Tangany
+description: 'Tangany is a company surfaced via the API Evangelist harvest backlog (source: new-submission)
+  and added to the network as a stub for full-pipeline profiling.'
+url: https://artifacts.apis.io/tangany-com/apis.yml
+x-type: company
+x-source: harvest:new-submission
+x-tier: stub
+x-tier-reason: harvest
+specificationVersion: '0.20'
+created: '2026-11-22'
+modified: '2026-11-22'
+tags:
+- Company
+apis: []
+maintainers:
+- FN: Kin Lane
+  email: kin@apievangelist.com
+- FN: APIs.json
+  email: info@apis.io
+common:
+- type: Website
+  url: https://tangany.com
+- type: Documentation
+  url: https://docs.tangany.com/
+x-submission-notes: add-form submission (11-16..11-22 backlog)
+x-submission-probe: root=ERR bogus=ERR llms=ERR docs=200
